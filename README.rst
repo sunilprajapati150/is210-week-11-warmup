@@ -8,7 +8,7 @@ Warmup Tasks
 :College: CUNY School of Professional Studies
 :Course-Name: Software Application Programming I
 :Course-Code: IS 210
-:Points: 20
+:Points: 15
 :Due-Date: YYYY-MM-DDTHH:mm:ss
 
 Overview
