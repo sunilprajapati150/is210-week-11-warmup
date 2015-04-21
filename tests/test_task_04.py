@@ -14,6 +14,14 @@ import task_04
 class Task04TestCase(unittest.TestCase):
     """Task 04 tests"""
 
+    def test_default_tires_unique(self):
+        """Tests that the default-created tires are unique instances."""
+        mycar = task_04.CustomCar('red')
+        for index1, tire1 in enumerate(mycar.tires):
+            for index2, tire2 in enumerate(mycar.tires):
+                if index1 < index2:
+                    self.assertIsNot(tire1, tire2)
+
 
     def test_default_tires(self):
         """Tests that tires are created by default."""
